@@ -1,0 +1,11 @@
+# Face Detection Neural Network - Requirements
+# Assignment 2 - Computer Vision
+# Python 3.7+ required
+
+# Core Dependencies (Required)
+numpy==1.24.3
+Pillow==10.0.0
+matplotlib==3.7.2
+
+# Optional Dependencies (for enhanced functionality)
+opencv-python==4.8.0.76  # For webcam capture in dataset preparation
