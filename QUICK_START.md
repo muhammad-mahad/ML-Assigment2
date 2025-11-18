@@ -8,9 +8,6 @@ Works on Windows, Mac, and Linux:
 ```bash
 # Interactive menu
 python automate.py
-
-# OR fully automated
-python automate.py --auto
 ```
 
 ### Option 2: Platform-Specific Scripts
@@ -52,12 +49,6 @@ chmod +x run.sh
 ---
 
 ## 🎯 Usage Examples
-
-### Fastest Setup (Fully Automated)
-```bash
-# This does EVERYTHING automatically
-python automate.py --auto
-```
 
 ### Interactive Setup (With Options)
 ```bash
@@ -101,11 +92,6 @@ For best results with real faces:
    - Formats: JPG, JPEG, PNG
    - Any size (will be resized automatically)
    - Clear, well-lit photos work best
-
-3. **Run the setup:**
-   ```bash
-   python automate.py --auto
-   ```
 
 ---
 
@@ -166,21 +152,15 @@ print(f"Faces detected: {face_count}")
 
 ## 📝 For Assignment Submission
 
-1. **Run automated setup:**
-   ```bash
-   python automate.py --auto
-   ```
-
-2. **Add your details:**
-   - Update name and ID in all .py files
+1. **Add your details:**
    - Review the generated report
 
-3. **Check results:**
+2. **Check results:**
    - `training_curves.png` - Visual performance
    - `training_results.json` - Detailed metrics
    - Should achieve >90% accuracy
 
-4. **Submit these files:**
+3. **Submit these files:**
    - All `.py` files
    - `Assignment2_Report.md`
    - Dataset folders
@@ -214,10 +194,5 @@ print(f"Faces detected: {face_count}")
 4. Ensure Python 3.7+ is installed
 
 ---
-
-**Ready to start?** Just run:
-```bash
-python automate.py --auto
-```
 
 Good luck! 🎉

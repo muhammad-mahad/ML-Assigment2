@@ -37,7 +37,7 @@ if not exist "venv" (
 
 REM Activate virtual environment
 echo [2/8] Activating virtual environment...
-call venv\Scripts\activate.bat
+call venv\Scripts\activate
 if %errorlevel% neq 0 (
     echo [ERROR] Failed to activate virtual environment
     pause
@@ -168,7 +168,6 @@ echo What to do next:
 echo   1. Check the training_curves.png for model performance
 echo   2. Review training_results.json for detailed metrics
 echo   3. Test with your own images using prediction_module.py
-echo   4. Add your name and ID to files before submission
 echo.
 echo To use the trained model:
 echo   python prediction_module.py

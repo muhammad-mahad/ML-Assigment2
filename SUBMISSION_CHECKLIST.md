@@ -150,14 +150,13 @@ With a properly prepared dataset, you should achieve:
 
 ## 📝 Final Steps Before Submission
 
-1. [ ] Add your name and ID to all files
-2. [ ] Create your face_images dataset (30+ images)
-3. [ ] Create your non_face_images dataset (30+ images)
-4. [ ] Run `python train_model.py` to train
-5. [ ] Verify results meet accuracy requirements
-6. [ ] Run `python test_system.py` for final check
-7. [ ] Zip all files for submission
-8. [ ] Submit on Microsoft Teams before 11:59 PM
+1. [ ] Create your face_images dataset (30+ images)
+2. [ ] Create your non_face_images dataset (30+ images)
+3. [ ] Run `python train_model.py` to train
+4. [ ] Verify results meet accuracy requirements
+5. [ ] Run `python test_system.py` for final check
+6. [ ] Zip all files for submission
+7. [ ] Submit on Microsoft Teams before 11:59 PM
 
 ---
 

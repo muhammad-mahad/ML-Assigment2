@@ -5,7 +5,6 @@ Assignment 2 - Computer Vision
 Cross-platform automation script
 """
 
-import os
 import sys
 import subprocess
 import platform
@@ -261,8 +260,6 @@ class FaceDetectionSetup:
             self.print_status("No trained model", "WARNING")
         
         return face_count, non_face_count
-    
-    def full_setup(self):
         """Run complete setup process"""
         self.print_header("AUTOMATED FULL SETUP")
         
@@ -306,21 +303,20 @@ class FaceDetectionSetup:
             self.print_header("FACE DETECTION - MAIN MENU")
             
             print(f"{Colors.CYAN}Setup Options:{Colors.ENDC}")
-            print("  1. Run full automated setup")
-            print("  2. Install/update requirements only")
-            print("  3. Generate synthetic dataset")
+            print("  1. Install/update requirements only")
+            print("  2. Generate synthetic dataset")
             print("")
             print(f"{Colors.CYAN}Training Options:{Colors.ENDC}")
-            print("  4. Train model")
-            print("  5. Test prediction module")
+            print("  3. Train model")
+            print("  4. Test prediction module")
             print("")
             print(f"{Colors.CYAN}Information:{Colors.ENDC}")
-            print("  6. Check dataset status")
-            print("  7. Run system tests")
+            print("  5. Check dataset status")
+            print("  6. Run system tests")
             print("")
             print(f"{Colors.CYAN}Other:{Colors.ENDC}")
-            print("  8. Clean generated files")
-            print("  9. Exit")
+            print("  7. Clean generated files")
+            print("  8. Exit")
             print("")
             
             choice = input(f"{Colors.BOLD}Enter choice (1-9): {Colors.ENDC}")
@@ -376,10 +372,7 @@ def main():
     
     # Check for command line arguments
     if len(sys.argv) > 1:
-        if sys.argv[1] == "--auto":
-            # Run full setup automatically
-            setup.full_setup()
-        elif sys.argv[1] == "--train":
+        if sys.argv[1] == "--train":
             # Just train the model
             setup.train_model()
         elif sys.argv[1] == "--test":
@@ -388,7 +381,6 @@ def main():
         elif sys.argv[1] == "--help":
             print("Usage: python automate.py [OPTIONS]")
             print("Options:")
-            print("  --auto    Run full automated setup")
             print("  --train   Train the model only")
             print("  --test    Run system tests only")
             print("  --help    Show this help message")
