@@ -1,10 +1,10 @@
 # Face Detection Using Shallow Neural Network
-## Assignment 2 - Computer Vision
+## Assignment 2 - Machine Learning
 
 **Student Name:** Muhammad Mahad  
 **Student ID:** 500330  
-**Course:** Computer Vision  
-**Instructor:** [Your Professor's Name]  
+**Course:** Machine Learning
+**Instructor:** Muhammad Jawad Khan  
 **Date:** November 2025
 
 ---
@@ -604,5 +604,3 @@ print(f"Faces detected: {np.sum(results)} out of {len(results)}")
 ---
 
 **End of Report**
-
-*This report was prepared in accordance with Assignment 2 requirements for Computer Vision course.*
