@@ -12,7 +12,7 @@
 This submission package contains all required files for Assignment 2:
 
 ### Core Files
-1. **ML_assignment_2_face_detection_COMPLETE.ipynb** - Main notebook with complete implementation
+1. **ML_assignment_2_face_detection.ipynb** - Main notebook with complete implementation
 2. **prediction.py** - Standalone prediction function (Annex C)
 3. **REPORT.md** - Comprehensive report in Markdown format
 4. **README.md** - This file with instructions
@@ -74,7 +74,7 @@ Based on the assignment requirements, I've added/fixed the following:
 
 1. **Upload Notebook to Colab:**
    - Go to https://colab.research.google.com/
-   - Upload `ML_assignment_2_face_detection_COMPLETE.ipynb`
+   - Upload `ML_assignment_2_face_detection.ipynb`
 
 2. **Prepare Your Face Images:**
    - Create a ZIP file with your face images
@@ -119,7 +119,7 @@ Based on the assignment requirements, I've added/fixed the following:
 
 3. **Run the Notebook:**
    ```bash
-   jupyter notebook ML_assignment_2_face_detection_COMPLETE.ipynb
+   jupyter notebook ML_assignment_2_face_detection.ipynb
    ```
 
 4. **Execute Cells in Order:**
@@ -285,7 +285,7 @@ Verify you have completed all requirements:
 
 ## 📁 File Descriptions
 
-### 1. ML_assignment_2_face_detection_COMPLETE.ipynb
+### 1. ML_assignment_2_face_detection.ipynb
 **Main notebook with complete implementation**
 
 **Contents:**
@@ -344,7 +344,7 @@ result = prediction(features)
 Before submitting, ensure you have:
 
 1. **Code Files:**
-   - [ ] ML_assignment_2_face_detection_COMPLETE.ipynb
+   - [ ] ML_assignment_2_face_detection.ipynb
    - [ ] prediction.py
 
 2. **Report:**
