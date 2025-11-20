@@ -3,7 +3,7 @@
 
 **Student Name:** Muhammad Mahad  
 **Student ID:** 500330  
-**Course:** Machine Learning
+**Course:** Machine Learning  
 **Instructor:** Muhammad Jawad Khan  
 **Date:** November 2025
 
